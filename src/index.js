@@ -4,12 +4,12 @@ import ReactDOM from 'react-dom/client';
 //import App from './App';
 //import reportWebVitals from './reportWebVitals';
 //import Contador from './Component/Contador';
-import Cont from './Component/Statee';
+//import Cont from './Component/Statee';
+import Hook from './Component/Hook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-
-<Cont numero={1}/>
+    <Hook/>
 );
 
 // If you want to start measuring performance in your app, pass a function
